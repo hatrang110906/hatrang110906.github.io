@@ -3,13 +3,13 @@
     padding: 8px 24px; 
     width: 450px;
     font-size: 30px;
-    border: 1px solid #e3a4be;
+    border: 1px solid #f0b7cf;
     background: #e2b4c8;
     box-shadow: 0 0 10px 2px #e8b3d3;}
 .my-list ol {margin: 12px;}
 .my-list p {text-align: center;}
 .my-list img {
-    width: 170px;
+    width: 180px;
     height: 200px;
     border-radius:50%;
     shape-image-threshold: calc();
