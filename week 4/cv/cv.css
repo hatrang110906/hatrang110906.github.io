@@ -1,11 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    background: rgb(240, 211, 216);
+    background: rgb(240, 151, 195);
 }
 nav ul{
     list-style: none;
-    background-color: #ef8ab2;
+    background-color:rgb(243, 79, 161);
     text-align: center;
     padding: 0;
     margin: 0;}
@@ -17,31 +17,72 @@ nav li{
     padding: 90px;
 }
 nav ul li a:hover{
-    color:rgb(239, 50, 129) ;
+    color:rgb(235, 208, 108) ;
 }
 nav a{
     text-decoration: none;
-    color: #fffefe;
+    color: hsl(330, 24%, 93%);
 }
-header h1 {
-    text-align: center;
-    color: rgb(242, 111, 133);}
-header h2 {text-decoration: underline; }
-article header  {
-    color:rgb(239, 50, 129);
-}
-article header p{
-      color:#8f0e41;
-}
+header h2 {
+    background-color:#f14aa6b2 }
+article header  {color:hsl(334, 33%, 96%);}
+article header p{ color:#8f0e41;}
 li {color:#8f0e41;}
 main {
     padding-left:30px;
     padding-right:30px;
 }
-img {
-    width: 200px;
-    height: 220px;
-    border-radius: 20px;
+figcaption {
+    text-align: center;
+    color:#8f0e41;
+    font-style: italic;
+}
+summary {color:#8f0e41}
+table{ 
+border:#8f0e41 1px solid;
+border-collapse:collapse;
+width:100%;
+height:120px;
+}
+table thead {height:30%}
+thead  {background-color:rgb(241, 91, 166); color:#dbe6ed; text-align: center;}
+tbody  {background-color: #f5d6e6; color:#8f0e41; text-align: center;}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #f0449a;
+    padding-bottom: 20px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+}
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 3px solid #e72d7b;
+}
+
+.htht { width: 80%;
+    margin: 20px auto;
+    background-color: #dbe6ed;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+figure img {width: 500px;
+    height: 300px;
+    border-radius: 0px;
     shape-image-threshold: calc();
     display:block;
-    margin:0 auto 20px; }
+    margin:0 auto 20px
+}
+.title {color:#bf0e6a; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.gt {color:#af568b;}
+
+
