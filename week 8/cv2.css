@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding:0;
@@ -38,16 +39,9 @@ figcaption {
     font-style: italic;
 }
 summary {color:#8f0e41}
-table{ 
-border:#8f0e41 1px solid;
-border-collapse:collapse;
-width:100%;
-height:120px;
-}
-table thead {height:30%}
-thead {background-color:rgb(241, 91, 166); color:#dbe6ed; text-align: center;}
-tbody {background-color: #fff; color:#8f0e41; text-align: center;}
-tbody tr a {color:#8f0e41;text-decoration: dashed;}
+thead { text-align: center;}
+tbody { text-align: center;}
+tbody tr a {color:#170d11;text-decoration: dashed;}
 .header {
     display: flex;
     justify-content: space-between;
